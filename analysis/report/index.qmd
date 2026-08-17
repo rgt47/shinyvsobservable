@@ -1,14 +1,9 @@
 ---
-title: "Combining Observable JS and Shiny in a
-  Single Quarto Document"
+title: "Combining Observable JS and Shiny in a Single Quarto Document"
 author: "Ronald G. Thomas"
 date: "2025-12-01"
 categories: [quarto, shiny, javascript, r, data-visualization]
-description: >
-  I did not really know how difficult it would be
-  to combine Observable JS and Shiny in one Quarto
-  document until every data-loading approach I tried
-  failed except fetching from a public URL.
+description: "I did not really know how difficult it would be to combine Observable JS and Shiny in one Quarto document until every data-loading approach I tried failed except fetching from a public URL."
 image: "media/images/hero.png"
 document-type: "blog"
 draft: true
@@ -17,6 +12,7 @@ execute:
   warning: false
   message: false
 format:
+  pdf: false
   html:
     resources:
       - data/raw_data/palmer-penguins.csv
@@ -280,7 +276,7 @@ output$count_shiny <- renderText({
 
 ![A debugging session with multiple terminal
 windows open and documentation
-visible](media/images/ambiance2.png){.img-fluid}
+visible](media/images/ambiance2.png){.img-fluid height=3.5in}
 
 *Debugging reactive framework conflicts requires
 patience and systematic elimination.*
@@ -444,7 +440,7 @@ the Shiny context.
 
 ![A whiteboard with architectural diagrams
 comparing client-server
-models](media/images/ambiance3.png){.img-fluid}
+models](media/images/ambiance3.png){.img-fluid height=3.5in}
 
 *Understanding the architectural boundary between
 client-side and server-side is the key insight.*
