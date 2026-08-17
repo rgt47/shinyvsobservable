@@ -18,8 +18,6 @@ execute:
   message: false
 format:
   html:
-    code-fold: false
-    code-tools: false
     resources:
       - data/raw_data/palmer-penguins.csv
 cluster: shiny
