@@ -12,7 +12,6 @@ execute:
   warning: false
   message: false
 format:
-  pdf: false
   html:
     resources:
       - data/raw_data/palmer-penguins.csv
