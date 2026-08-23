@@ -574,7 +574,7 @@ time.
 **Related posts:**
 
 - [Prototyping a Shiny App with ChatGPT](
-  ../36-simpleshinyappwithchatgpt/):
+  ../shy-prototype-with-chatgpt/):
   Building a Shiny app iteratively with AI
   assistance
 
