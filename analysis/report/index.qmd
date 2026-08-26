@@ -19,9 +19,9 @@ cluster: shiny
 cluster-order: 1
 ---
 
-![A split screen showing two reactive frameworks
-working side by side in a single
-document](media/images/hero.png){.img-fluid
+![Two different gears, one large and one small, meshed
+together and turning: two different systems working
+together](media/images/hero.jpg){.img-fluid
 width=80% fig-align="center"}
 
 *Combining two reactive frameworks in one document
@@ -89,7 +89,7 @@ ultimately found to bypass the conflict entirely.
 This learning process is documented here. Errors
 spotted or better approaches are always welcome.
 
-![](media/images/quarto-logo.png){.img-fluid width=30% fig-align="center"}
+![A sheet of tracing paper laid over a printed diagram, revealing a second, complementary drawing sketched on top: one document layer combining two different tools.](media/images/ambiance1.jpg){.img-fluid height=3.5in}
 
 *Understanding the architectural differences
 between client-side and server-side reactivity.*
@@ -273,9 +273,10 @@ output$count_shiny <- renderText({
 | Plot | `Plot.plot({...})` | `renderPlot({...})` |
 | Reactivity | Implicit | Explicit wrappers |
 
-![A debugging session with multiple terminal
-windows open and documentation
-visible](media/images/ambiance2.png){.img-fluid height=3.5in}
+![Two pens, one fountain pen and one mechanical
+pencil, writing on the same open page from opposite
+corners: two languages contributing to one
+document](media/images/ambiance2.jpg){.img-fluid height=3.5in}
 
 *Debugging reactive framework conflicts requires
 patience and systematic elimination.*
