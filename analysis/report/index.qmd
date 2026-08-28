@@ -57,7 +57,7 @@ ultimately found to bypass the conflict entirely.
   reactive frameworks in a single document for a
   workshop demonstration.
 - Colleagues frequently ask which framework to use
-  for interactive visualisations, and a side-by-side
+  for interactive visualizations, and a side-by-side
   comparison seemed more persuasive than a verbal
   explanation.
 - The Quarto documentation implies that OJS and
@@ -73,7 +73,7 @@ ultimately found to bypass the conflict entirely.
 
 ## Objectives
 
-1. Create identical interactive visualisations using
+1. Create identical interactive visualizations using
    both Observable JS and Shiny, displayed
    side-by-side in a single Quarto document.
 2. Document the data-loading approaches that fail
@@ -82,7 +82,7 @@ ultimately found to bypass the conflict entirely.
 3. Provide a working solution using `fetch()` from
    a public URL that bypasses the server-client
    conflict.
-4. Summarise the key syntax differences between OJS
+4. Summarize the key syntax differences between OJS
    and Shiny for statisticians evaluating both
    frameworks.
 
@@ -118,7 +118,7 @@ Client-side reactivity means that all computation
 happens in the browser. Observable JS exemplifies
 this approach: data is loaded into the browser, and
 user interactions trigger JavaScript functions that
-filter, transform, and visualise data without
+filter, transform, and visualize data without
 contacting a server. The advantage is speed; the
 limitation is that the browser must hold all data in
 memory.
@@ -141,7 +141,7 @@ data-loading conflicts arise.
 
 ## The Side-by-Side Comparison
 
-Below are two identical visualisations: one built
+Below are two identical visualizations: one built
 with Observable JS (client-side) and one with Shiny
 (server-side). Both filter the Palmer Penguins
 dataset by bill length and display a histogram of
@@ -325,7 +325,7 @@ Did you forget to use a render function?`
 
 **Why:** In the Shiny context, `ojs_define()` expects
 reactive expressions, not static data frames. The
-behaviour differs from what the documentation shows
+behavior differs from what the documentation shows
 for regular (non-Shiny) Quarto documents.
 
 ## Challenge 3: Local d3.csv Returns 404
@@ -445,7 +445,7 @@ models](media/images/ambiance3.png){.img-fluid height=3.5in}
 *Understanding the architectural boundary between
 client-side and server-side is the key insight.*
 
-## Lessons Learnt
+## Lessons Learned
 
 ### Conceptual Understanding
 
