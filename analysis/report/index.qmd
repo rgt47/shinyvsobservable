@@ -6,7 +6,7 @@ categories: [quarto, shiny, javascript, r, data-visualization]
 description: "I did not really know how difficult it would be to combine Observable JS and Shiny in one Quarto document until every data-loading approach I tried failed except fetching from a public URL."
 image: "media/images/hero.png"
 document-type: "blog"
-draft: true
+draft: false
 execute:
   echo: true
   warning: false
